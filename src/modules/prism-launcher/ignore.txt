@@ -1,0 +1,12 @@
+**.DS_Store
+assets/
+cache/
+libraries/
+logs/
+meta/
+translations/
+metacache
+instances/.tmp/
+instances/**/.fabric/
+instances/**/crash-reports/
+instances/**/logs/
