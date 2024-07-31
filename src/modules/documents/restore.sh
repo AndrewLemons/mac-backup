@@ -12,4 +12,4 @@ echo "$MODULE_NAME: Restoring"
 
 cd "$(dirname "$0")"
 
-rclone sync --progress --stats-one-line "$RESTORE_FROM" "$RESTORE_TO"
+rclone copy --progress --stats-one-line --update "$RESTORE_FROM" "$RESTORE_TO"
